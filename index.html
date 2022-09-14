@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MyWebsite</title>
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- include jQuery -->
+	</head>
+	<body>
+		<header>
+			<div id="nav_bar_placeholder"></div>
+			<script>
+				$(function(){
+					$("#nav_bar_placeholder").load("nav.html");
+				});
+			</script></header>
+
+		<main>
+			<h1>What's going on here?</h1>
+			<p id="intro">This is a website where I can practice web dev shit, compile all my projects in a way that's nice to look at and write about other things going on in my life. I'd like it to look good but can't make any guarantees, and I'm guessing this is gonna be running on localhost exclusively for quite some time.</p>
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="https://github.com/awmkay">GitHub</a></li>
+				<li><a href="https://www.instagram.com/archie.mckay">Instagram</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

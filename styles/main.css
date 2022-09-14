@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav_bar {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	height: auto;
+	width: auto;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.nav_bar_element {
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+footer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+footer li {
+	display: inline-block;
+}
